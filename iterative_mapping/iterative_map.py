@@ -77,6 +77,6 @@ for i in range(0,k+1):
 
 
 os.system("samtools merge -f mapped_all.bam"+ss) #merge all mapped reads in bam format
-os.system("rm ref")
+os.system("rm ref*")
     
 

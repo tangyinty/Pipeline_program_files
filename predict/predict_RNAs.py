@@ -74,8 +74,7 @@ for i in range(len(ids)):
 os.system("rm -f temp.txt")
 if flag == 1:
     os.system("rm -f constraint.txt")
-
-h.close()
+    h.close()
     
 
 
